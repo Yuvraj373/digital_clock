@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(pho.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.clock{
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 24vh;
+    border-radius: 15px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.clock:hover{
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1),0px 10px 20px rgba(0,0,0,0.7);
+}
+.clock h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.clock span{
+    position: relative;
+    top: 30%;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+ #dot{
+    font-size: 50px;
+}
+
